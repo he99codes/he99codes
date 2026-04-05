@@ -246,17 +246,6 @@ class PriyanshuSharma:
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                QUOTE I BELIEVE IN                           -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> fortune`
-
-<div align="center">
-
-> *"The most dangerous phrase in language is: 'We've always done it this way.'"*
->
-> — Grace Hopper
 
 </div>
 
@@ -272,9 +261,9 @@ class PriyanshuSharma:
 
 [![GitHub](https://img.shields.io/badge/GitHub-he99codes-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=21262d)](https://github.com/he99codes)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=21262d)](https://linkedin.com/in/priyanshu-sharma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=21262d)](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=21262d)](mailto:priyanshu@example.com)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=21262d)](mailto:priyanshu2164@gmail.com)
 
 </div>
 
