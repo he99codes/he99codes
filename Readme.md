@@ -11,12 +11,7 @@
 
 <br/>
 
-<!-- PROFILE VIEWS + BADGES -->
-<img src="https://komarev.com/ghpvc/?username=he99codes&style=for-the-badge&color=0f3460&label=PROFILE+VIEWS" alt="Profile Views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/he99codes?style=for-the-badge&color=533483&labelColor=0d1117&label=FOLLOWERS" alt="Followers"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Open%20to-Research%20Collab-58a6ff?style=for-the-badge&labelColor=0d1117" alt="Open to Collab"/>
+
 
 </div>
 
@@ -40,7 +35,7 @@ class PriyanshuSharma:
     interests  = [
         "Artificial Intelligence",       "Deep Learning",
         "Computer Vision",               "Underwater Image Enhancement",
-        "Cybersecurity",                 "Embedded Systems",
+        "Cybersecurity",                 
         "Theory of Computation",         "Machine Learning",
         "Psychology & Philosophy",       "Web Development",
     ]
