@@ -1,28 +1,36 @@
 <img src="assets/header.svg" width="100%" alt="Priyanshu Sharma · Computer vision, deep learning and machine learning · 3 years of experience"/>
 
-I’m Priyanshu, a computer science student in Pune with **3 years of experience**. I study how models recover detail from underwater photographs. I also build tools for a different measurement problem in machine learning: how do you tell whether an AI response actually meets the requirements of a prompt?
+I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
 [GitHub](https://github.com/he99codes) · [LinkedIn](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/) · [Email](mailto:priyanshu2164@gmail.com)
 
-<a href="https://github.com/he99codes/evalbench"><img src="assets/terminal.svg" width="100%" alt="My research terminal, featuring underwater restoration, EvalBench and embedded systems"/></a>
-<img src="assets/project-metrics.svg" width="100%" alt="Five EvalBench stages, about 90% MNIST development accuracy, three underwater vision models, and three faculty directory export formats"/>
+<a href="https://github.com/he99codes/evalbench"><img src="assets/priyanshu-terminal.svg" width="100%" alt="Priyanshu Sharma’s engineering profile, including Handshake AI, ContextMover and research at NIT Kurukshetra"/></a>
+<img src="assets/priyanshu-results.svg" width="100%" alt="ContextMover retrieval under 100 ms, benchmark PSNR improved by 18%, SSIM by 14%, and Tabular AutoML setup time reduced by 75%"/>
 
-## What I’m working on
+## Experience
 
-**Computer vision.** Underwater images often lose red tones and distant detail. I’m exploring how a transformer, a generative adversarial network, and a lightweight convolutional network handle those same distortions. My current models are Restormer, FUnIE-GAN, and Shallow-UWNet. [FUnIE-GAN](https://github.com/he99codes/FUnIE-GAN) · [Shallow-UWNet](https://github.com/he99codes/Shallow-UWnet)
+**AI Fellow · Handshake AI** · July 2026–present
+I design multi-step terminal tasks for coding and reasoning agents. I adjust the difficulty to identify where agents lose track of a task or struggle to explore an unfamiliar environment.
 
-**Deep learning from scratch.** My NumPy digit classifier takes 784 pixel values and returns probabilities for ten digits. Writing the gradients myself gave me a way to trace an incorrect prediction back through the network. It reaches about 90% accuracy on the MNIST development set. [Model and results](https://github.com/he99codes/mnist-neural-network)
+**Application Developer · ContextMover** · April 2026–present
+I built a Chrome extension, a React Native Android app, and an Express backend to keep context in sync across devices. Redesigning the lookup index brought retrieval below 100 ms. A fallback for low-spec hardware cut failures and timeouts by 35%. [ContextMover](https://github.com/he99codes/ContextMover)
 
-**AI evaluation and terminal benchmarking.** In EvalBench, each score links to a quote in the answer. For terminal agents, I’m interested in how to check the files and system state an agent leaves behind after a multi-step task. I’m exploring L3/L4-style tasks and the Terminal-Bench 2.0 benchmark. [EvalBench](https://github.com/he99codes/evalbench) · [Terminal-Bench 2.0](https://github.com/harbor-framework/terminal-bench-2)
+**Research Intern · National Institute of Technology, Kurukshetra** · February–May 2026
+I built and validated CNN, GAN, and diffusion pipelines in Python. On benchmark datasets, the experiments improved peak signal-to-noise ratio (PSNR) by 18% and structural similarity (SSIM) by 14%.
+
+## Selected projects
+
+**Tabular AutoML.** I built a Python workflow that uses Bayesian optimization to tune models and SHAP to explain predictions. The framework reduced setup time by 75% and improved model performance by 8%. [Tabular AutoML](https://github.com/he99codes/tabular-autoML)
+
+**EvalBench.** This workbench compares two AI responses against a shared rubric and ties each score to a passage in the answer. [EvalBench](https://github.com/he99codes/evalbench)
 
 <a href="https://github.com/he99codes/evalbench"><img src="assets/evalbench-pipeline.svg" width="100%" alt="EvalBench extracts requirements, scores both answers independently, compares them, suggests an edit, and checks compliance"/></a>
 
-## Other projects
+## Tools and training
 
-| Project | What it does |
-| --- | --- |
-| [Faculty directory scraper](https://github.com/he99codes/academic-faculty-scraper) | Finds faculty and leadership pages, renders JavaScript directories with Playwright, and exports structured records. |
-| [Futures trading CLI](https://github.com/he99codes/Priyanshu-Trading-Bot) | Places and validates five order types on the Binance Futures testnet. |
+I work in Python, C++, JavaScript, TypeScript, SQL, and Bash. I use PyTorch and TensorFlow for deep learning, and React, React Native, and Node.js for application development.
+
+I completed the **Machine Learning**, **Deep Learning**, and **Mathematics for Machine Learning and Data Science** specializations from DeepLearning.AI through Coursera.
 
 ## GitHub activity
 

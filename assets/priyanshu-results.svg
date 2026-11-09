@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="145" viewBox="0 0 850 145" role="img">
+  <title>Priyanshu Sharma’s project and research results</title>
+  <defs><linearGradient id="tile" x2="1" y2="1"><stop offset="0%" stop-color="#1a281b"/><stop offset="100%" stop-color="#131c13"/></linearGradient></defs>
+  <style>
+    @keyframes blink { 50% { opacity: .25 } }
+    .light { animation: blink 1.5s ease-in-out infinite }
+    @keyframes float { 50% { transform: translateY(-3px) } } .metric { animation: float 4s ease-in-out infinite }
+    @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
+  </style>
+  <g transform="translate(5 6)">
+  <g class="metric" style="animation-delay:-0s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#13eb22" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#3aef47" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">RETRIEVAL LATENCY</text>
+  <text x="16" y="70" fill="#13eb22" font-size="25" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">&lt;100 ms</text>
+  <text x="16" y="96" fill="#d1e0d2" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">ContextMover lookup time</text>
+  <circle class="light" style="animation-delay:0.0s" cx="21" cy="115" r="3.5" fill="#1eed2d"/>
+  <text x="32" y="119" fill="#1eed2d" font-size="10.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">Attention Engine</text>
+  </g></g>
+  <g transform="translate(217 6)">
+  <g class="metric" style="animation-delay:-1s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#65f26e" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#3aef47" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">IMAGE QUALITY</text>
+  <text x="16" y="70" fill="#65f26e" font-size="25" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">+18%</text>
+  <text x="16" y="96" fill="#d1e0d2" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Peak signal-to-noise ratio</text>
+  <circle class="light" style="animation-delay:0.3333333333333333s" cx="21" cy="115" r="3.5" fill="#5df268"/>
+  <text x="32" y="119" fill="#5df268" font-size="10.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">NIT Kurukshetra</text>
+  </g></g>
+  <g transform="translate(429 6)">
+  <g class="metric" style="animation-delay:-2s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#3def49" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#3aef47" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STRUCTURAL SIMILARITY</text>
+  <text x="16" y="70" fill="#3def49" font-size="25" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">+14%</text>
+  <text x="16" y="96" fill="#d1e0d2" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">SSIM on benchmark data</text>
+  <circle class="light" style="animation-delay:0.6666666666666666s" cx="21" cy="115" r="3.5" fill="#41f04e"/>
+  <text x="32" y="119" fill="#41f04e" font-size="10.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">NIT Kurukshetra</text>
+  </g></g>
+  <g transform="translate(641 6)">
+  <g class="metric" style="animation-delay:-3s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#4df159" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#3aef47" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">AUTOML SETUP</text>
+  <text x="16" y="70" fill="#4df159" font-size="25" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">−75%</text>
+  <text x="16" y="96" fill="#d1e0d2" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Time to configure a run</text>
+  <circle class="light" style="animation-delay:1.0s" cx="21" cy="115" r="3.5" fill="#4df159"/>
+  <text x="32" y="119" fill="#4df159" font-size="10.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">Tabular AutoML</text>
+  </g></g>
+</svg>

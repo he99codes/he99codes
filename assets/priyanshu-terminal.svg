@@ -25,19 +25,19 @@
   <text x="25" y="114" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">CORE PROFILE</text>
   <text x="175" y="114" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: Priyanshu Sharma (@he99codes)</text>
   <text x="25" y="138" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">SPECIALIZATION</text>
-  <text x="175" y="138" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: Computer science student researching underwater image restoration</text>
+  <text x="175" y="138" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: Computer Science Engineering · Bharati Vidyapeeth, Pune</text>
   <text x="25" y="162" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">COMPUTER VISION</text>
-  <text x="175" y="162" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: Restormer  •  FUnIE-GAN  •  Shallow-UWNet</text>
+  <text x="175" y="162" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: NIT Kurukshetra · CNN, GAN and diffusion pipelines</text>
   <text x="25" y="186" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">MODEL EVALUATION</text>
-  <text x="175" y="186" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: EvalBench  •  pairwise scoring  •  evidence spans</text>
-  <text x="25" y="210" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">EMBEDDED SYSTEMS</text>
-  <text x="175" y="210" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: ATtiny85 Digispark  •  Arduino  •  ultrasonic sensing</text>
+  <text x="175" y="186" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: Handshake AI · multi-step terminal benchmarks</text>
+  <text x="25" y="210" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">FULL-STACK DEV</text>
+  <text x="175" y="210" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: ContextMover · React Native, Chrome extension and Express</text>
   <text x="25" y="234" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">PROJECT RESULTS</text>
-  <text x="175" y="234" fill="#1eed2d" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: ~90% MNIST dev accuracy</text>
+  <text x="175" y="234" fill="#1eed2d" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: Retrieval under 100 ms</text>
   <text x="405" y="234" fill="#3aef47" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">|</text>
-  <text x="425" y="234" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">5 evaluation stages</text>
+  <text x="425" y="234" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">PSNR up 18%</text>
   <text x="605" y="234" fill="#3aef47" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">|</text>
-  <text x="625" y="234" fill="#7df485" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">3 export formats</text>
+  <text x="625" y="234" fill="#7df485" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">SSIM up 14%</text>
   <rect class="light" x="520" y="268" width="8" height="15" fill="#13eb22"/>
   <circle class="light" style="animation-delay:0.0s" cx="29" cy="301" r="3.5" fill="#1eed2d"/>
   <text x="39" y="305" fill="#1eed2d" font-size="11.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">PARSE REQUEST</text>
