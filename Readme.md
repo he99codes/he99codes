@@ -1,14 +1,26 @@
 <img src="assets/priyanshu-intro.svg" width="100%" alt="Priyanshu Sharma · Terminal Benchmarking · AI Evaluation · AI Agents · Data Mining · Data Engineer · ML Engineer"/>
 
 <p align="center">
-  <a href="#experience"><img src="https://img.shields.io/badge/Terminal-Benchmarking-8BFFAA?style=for-the-badge&amp;labelColor=163520&amp;logo=gnubash&amp;logoColor=white" alt="Terminal Benchmarking"/></a>
-  <a href="#experience"><img src="https://img.shields.io/badge/Coding_agents-Multi--step_tasks-43B975?style=for-the-badge&amp;labelColor=203527" alt="Coding agents · Multi-step tasks"/></a>
-  <a href="https://github.com/he99codes/evalbench"><img src="https://img.shields.io/badge/AI_evaluation-EvalBench-8DCB9D?style=for-the-badge&amp;labelColor=25362B" alt="AI evaluation · EvalBench"/></a>
+  <img src="https://img.shields.io/badge/TerminalBench-L3%20%26%20L4%20Contributor-00C7B7?style=for-the-badge&logo=gnubash&logoColor=white" alt="TerminalBench"/>
+  <img src="https://img.shields.io/badge/Frontier%20LLM-Adversarial%20Red--Teaming-FF0055?style=for-the-badge&logo=target&logoColor=white" alt="Red Teaming"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-GCP%20BigQuery%20Architect-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP BigQuery"/>
+  <img src="https://img.shields.io/badge/CNCF%20Harbor-Enterprise%20Registry-60B982?style=for-the-badge&logo=harbor&logoColor=white" alt="Harbor"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Kubernetes-K8s%20Orchestration-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyanshu-sharma-0bb566281/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Priyanshu Sharma on LinkedIn"/></a>
+  <a href="mailto:priyanshu2164@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email priyanshu2164@gmail.com"/></a>
+  <a href="https://github.com/he99codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub he99codes"/></a>
+  <a href="tel:+917419164306"><img src="https://img.shields.io/badge/Phone-%2B91%2074191%2064306-258050?style=for-the-badge&amp;logo=whatsapp&amp;logoColor=white" alt="Phone +91 74191 64306"/></a>
+  <a href="#tools-and-training"><img src="https://img.shields.io/badge/Certified-Machine%20Learning-007EC6?style=for-the-badge&amp;logo=coursera&amp;logoColor=white" alt="Machine Learning Specialization"/></a>
+  <a href="#tools-and-training"><img src="https://img.shields.io/badge/Certified-Deep%20Learning-E57830?style=for-the-badge&amp;logo=coursera&amp;logoColor=white" alt="Deep Learning Specialization"/></a>
 </p>
 
 I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
-[GitHub](https://github.com/he99codes) · [LinkedIn](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/) · [Email](mailto:priyanshu2164@gmail.com)
 
 <a href="https://github.com/he99codes/evalbench"><img src="assets/priyanshu-flight-terminal.svg" width="100%" alt="Priyanshu Sharma’s engineering profile, including Handshake AI, ContextMover and research at NIT Kurukshetra"/></a>
 <img src="assets/priyanshu-results.svg" width="100%" alt="ContextMover retrieval under 100 ms, benchmark PSNR improved by 18%, SSIM by 14%, and Tabular AutoML setup time reduced by 75%"/>
