@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="294" viewBox="0 0 850 294" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal Benchmarking — Priyanshu Sharma, AI Fellow at Handshake AI</title>
+  <desc id="desc">I design multi-step coding tasks for terminal agents. An illustrative shell trace highlights three steps: reproduce a failure, inspect a patch, and run regression tests.</desc>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#194129"/></pattern>
+  </defs>
+  <style>
+    .mono {font-family:'Courier New',monospace} .sans {font-family:Arial,sans-serif}
+    .step {fill:#81cf9d;animation:focus 9s linear infinite}
+    .inspect {animation-delay:-6s} .verify {animation-delay:-3s}
+    @keyframes focus {0%,27%{fill:#d7ffad}34%,93%{fill:#81cf9d}}
+    @media(prefers-reduced-motion:reduce){.step{animation:none}}
+  </style>
+  <rect width="850" height="294" rx="12" fill="#080e0b"/>
+  <rect x="1" y="1" width="848" height="292" rx="12" fill="url(#dots)" stroke="#2a5036"/>
+  <text x="34" y="40" class="sans" font-size="22" font-weight="700" fill="#d5eadd">Priyanshu Sharma</text>
+  <text x="816" y="39" text-anchor="end" class="mono" font-size="15" fill="#96c7a3">@he99codes</text>
+  <text x="30" y="113" class="sans" font-size="64" font-weight="700" letter-spacing="-2.7" fill="#acff98">Terminal Benchmarking</text>
+  <text x="34" y="151" class="sans" font-size="21" fill="#e2f5e9">AI Fellow at Handshake AI · I design multi-step tasks for coding agents.</text>
+  <text x="34" y="179" class="mono" font-size="15" fill="#a8cbb3">AI Evaluation | ML ENGINEER | Data Engineer</text>
+  <rect x="26" y="201" width="798" height="72" rx="7" fill="#0c1911" stroke="#31533a"/>
+  <g class="mono" font-size="12" fill="#aad5b4"><text x="43" y="223">EXAMPLE / REPRODUCE</text><text x="320" y="223">INSPECT THE EDIT</text><text x="601" y="223">CHECK REGRESSIONS</text></g>
+  <path d="M296 214v46m280-46v46" stroke="#34503c"/>
+  <g class="mono" font-size="18" font-weight="700"><text class="step" x="42" y="252">$ pytest -k parser</text><text class="step inspect" x="319" y="252">$ git diff</text><text class="step verify" x="600" y="252">$ pytest -q</text></g>
+</svg>
