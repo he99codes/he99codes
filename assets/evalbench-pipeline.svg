@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="250" viewBox="0 0 850 250" role="img">
+  <title>EvalBench’s five evaluation stages</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop offset="0%" stop-color="#0a0e17"/><stop offset="52%" stop-color="#0f1626"/><stop offset="100%" stop-color="#070a10"/></linearGradient><linearGradient id="edge" x2="1" y2="1"><stop offset="0%" stop-color="#00f2fe"/><stop offset="50%" stop-color="#4facfe"/><stop offset="100%" stop-color="#38d39f"/></linearGradient><linearGradient id="tile" x2="1" y2="1"><stop offset="0%" stop-color="#141c2e"/><stop offset="100%" stop-color="#0d1422"/></linearGradient></defs>
+  <style>
+    @keyframes blink { 50% { opacity: .25 } }
+    .light { animation: blink 1.5s ease-in-out infinite }
+    @keyframes march { to { stroke-dashoffset: -28 } } .flow { animation: march 1.5s linear infinite }
+    @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
+  </style>
+  <rect x="5" y="5" width="840" height="240" rx="12" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+  <circle class="light" style="animation-delay:0s" cx="30" cy="27" r="3.5" fill="#00f2fe"/>
+  <text x="45" y="31" fill="#00f2fe" font-size="11.5" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">EVALBENCH  /  FIVE-STAGE AI RESPONSE EVALUATION PIPELINE</text>
+  <rect x="6" y="44" width="838" height="1" rx="0" fill="#263047" stroke="none" stroke-width="1.5"/>
+  <path class="flow" d="M171 140h19" stroke="#00f2fe" stroke-width="3" stroke-dasharray="4 3"/>
+  <g transform="translate(25 75)">
+  <rect x="0" y="0" width="150" height="130" rx="10" fill="url(#tile)" stroke="#00f2fe" stroke-width="1.5"/>
+  <text x="14" y="24" fill="#00f2fe" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STAGE 01</text>
+  <rect x="85" y="12" width="52" height="17" rx="4" fill="#202a3e" stroke="none" stroke-width="1.5"/>
+  <text x="111" y="24" fill="#00f2fe" font-size="9" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">INPUT</text>
+  <text x="14" y="52" fill="#ffffff" font-size="13" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Requirements</text>
+  <text x="14" y="70" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Extract the task</text>
+  <text x="14" y="86" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Requests and constraints</text>
+  <text x="14" y="102" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Required output format</text>
+  <text x="14" y="119" fill="#00f2fe" font-size="10" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">● Prompt parsed</text>
+  </g>
+  <path class="flow" d="M331 140h19" stroke="#d57cff" stroke-width="3" stroke-dasharray="4 3"/>
+  <g transform="translate(185 75)">
+  <rect x="0" y="0" width="150" height="130" rx="10" fill="url(#tile)" stroke="#d57cff" stroke-width="1.5"/>
+  <text x="14" y="24" fill="#d57cff" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STAGE 02</text>
+  <rect x="85" y="12" width="52" height="17" rx="4" fill="#202a3e" stroke="none" stroke-width="1.5"/>
+  <text x="111" y="24" fill="#d57cff" font-size="9" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">RUBRIC</text>
+  <text x="14" y="52" fill="#ffffff" font-size="13" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Score A and B</text>
+  <text x="14" y="70" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Judge independently</text>
+  <text x="14" y="86" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Apply shared criteria</text>
+  <text x="14" y="102" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Verify evidence spans</text>
+  <text x="14" y="119" fill="#d57cff" font-size="10" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">● Scores recorded</text>
+  </g>
+  <path class="flow" d="M491 140h19" stroke="#38bdf8" stroke-width="3" stroke-dasharray="4 3"/>
+  <g transform="translate(345 75)">
+  <rect x="0" y="0" width="150" height="130" rx="10" fill="url(#tile)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="14" y="24" fill="#38bdf8" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STAGE 03</text>
+  <rect x="85" y="12" width="52" height="17" rx="4" fill="#202a3e" stroke="none" stroke-width="1.5"/>
+  <text x="111" y="24" fill="#38bdf8" font-size="9" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">PAIR</text>
+  <text x="14" y="52" fill="#ffffff" font-size="13" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Compare</text>
+  <text x="14" y="70" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Review both candidates</text>
+  <text x="14" y="86" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Randomize their order</text>
+  <text x="14" y="102" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Choose a preference</text>
+  <text x="14" y="119" fill="#38bdf8" font-size="10" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">● Pair ranked</text>
+  </g>
+  <path class="flow" d="M651 140h19" stroke="#facc15" stroke-width="3" stroke-dasharray="4 3"/>
+  <g transform="translate(505 75)">
+  <rect x="0" y="0" width="150" height="130" rx="10" fill="url(#tile)" stroke="#facc15" stroke-width="1.5"/>
+  <text x="14" y="24" fill="#facc15" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STAGE 04</text>
+  <rect x="85" y="12" width="52" height="17" rx="4" fill="#202a3e" stroke="none" stroke-width="1.5"/>
+  <text x="111" y="24" fill="#facc15" font-size="9" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">EDIT</text>
+  <text x="14" y="52" fill="#ffffff" font-size="13" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Suggest an edit</text>
+  <text x="14" y="70" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Review one response</text>
+  <text x="14" y="86" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Identify a weakness</text>
+  <text x="14" y="102" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Propose a specific fix</text>
+  <text x="14" y="119" fill="#facc15" font-size="10" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">● Revision proposed</text>
+  </g>
+  <g transform="translate(665 75)">
+  <rect x="0" y="0" width="160" height="130" rx="10" fill="url(#tile)" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="14" y="24" fill="#4ade80" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">STAGE 05</text>
+  <rect x="85" y="12" width="52" height="17" rx="4" fill="#202a3e" stroke="none" stroke-width="1.5"/>
+  <text x="111" y="24" fill="#4ade80" font-size="9" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">CHECK</text>
+  <text x="14" y="52" fill="#ffffff" font-size="13" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Compliance</text>
+  <text x="14" y="70" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Revisit each requirement</text>
+  <text x="14" y="86" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Check mandatory items</text>
+  <text x="14" y="102" fill="#8b949e" font-size="10" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">• Flag reward mismatch</text>
+  <text x="14" y="119" fill="#4ade80" font-size="10" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">● Report ready</text>
+  </g>
+</svg>

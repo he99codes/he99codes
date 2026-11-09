@@ -1,281 +1,280 @@
+<!-- Profile layout inspired by https://github.com/faisal37990/faisal37990 -->
 <div align="center">
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                     HEADER BANNER                           -->
-<!-- ████████████████████████████████████████████████████████████ -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyanshu-sharma-0bb566281/"><img src="assets/header.svg" width="100%" alt="Priyanshu Sharma — Computer Vision, AI Evaluation and Embedded Systems"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/he99codes"><img src="assets/typing-headline.svg" width="820" alt="Underwater image restoration, AI evaluation, machine learning, hardware security and web automation"/></a>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:533483&height=200&section=header&text=Priyanshu%20Sharma&fontSize=52&fontColor=c9d1d9&fontAlignY=38&desc=he99codes&descAlignY=60&descSize=22&descColor=58a6ff&animation=fadeIn" width="100%"/>
+<p align="center">
+  <strong>Pune, India 🇮🇳</strong> &nbsp;|&nbsp;
+  <strong>Computer Science Student</strong> &nbsp;|&nbsp;
+  <strong>Underwater Image Restoration &amp; AI Response Evaluation</strong>
+</p>
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=false&random=false&width=600&height=50&lines=AI+%26+Deep+Learning+Researcher;Cybersecurity+%26+Embedded+Systems;Computer+Vision+%7C+Image+Enhancement;Building+systems+that+think+%F0%9F%A7%A0" alt="Typing SVG" /></a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer%20vision-Underwater%20restoration-00C7B7?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="Computer vision · Underwater restoration"/>
+  <img src="https://img.shields.io/badge/AI%20evaluation-Pairwise%20scoring-FF0055?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="AI evaluation · Pairwise scoring"/>
+  <img src="https://img.shields.io/badge/Neural%20networks-NumPy%20from%20scratch-4285F4?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="Neural networks · NumPy from scratch"/>
+  <img src="https://img.shields.io/badge/Embedded%20systems-ATtiny85-60B982?style=for-the-badge&amp;logo=arduino&amp;logoColor=white" alt="Embedded systems · ATtiny85"/>
+  <img src="https://img.shields.io/badge/Web%20automation-Playwright-326CE5?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Web automation · Playwright"/>
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyanshu-sharma-0bb566281/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:priyanshu2164@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/he99codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/he99codes/evalbench"><img src="https://img.shields.io/badge/Project-EvalBench-blue?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="Project · EvalBench"/></a>
+  <a href="https://github.com/he99codes/FUnIE-GAN"><img src="https://img.shields.io/badge/Research-Underwater%20vision-orange?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="Research · Underwater vision"/></a>
+</p>
 
+<p align="center">
+  <a href="https://github.com/he99codes/evalbench"><img src="assets/terminal.svg" width="100%" alt="Research terminal showing Priyanshu’s projects in vision, evaluation and embedded systems"/></a>
+</p>
 
+<p align="center">
+  <img src="assets/project-metrics.svg" width="100%" alt="5 EvalBench stages, about 90% MNIST development accuracy, 3 underwater vision models, and 3 faculty directory export formats"/>
+</p>
 
 </div>
 
-<br/>
+---
+
+### 🌟 Executive Overview
+
+> I’m **Priyanshu Sharma**, a computer science student in Pune. My research starts with a question about underwater photographs. When the water absorbs red light and distant objects lose contrast, what can an image restoration model recover? I’m exploring that question with **Restormer**, **FUnIE-GAN**, and **Shallow-UWNet**.
+>
+> I also built **EvalBench** to compare two AI responses to the same prompt. Each score points to a passage in the answer, so a reviewer can inspect the evidence behind a preference. For a closer look at how models learn, I wrote a digit classifier in **NumPy**, including the forward pass and gradients.
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                      ABOUT ME                               -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> whoami`
-
-```python
-class PriyanshuSharma:
-    name       = "Priyanshu Sharma"
-    alias      = "he99codes"
-    role       = "CSE Student | AI Researcher | Security Enthusiast"
-    location   = "India 🇮🇳"
-    
-    interests  = [
-        "Artificial Intelligence",       "Deep Learning",
-        "Computer Vision",               "Underwater Image Enhancement",
-        "Cybersecurity",                 
-        "Theory of Computation",         "Machine Learning",
-        "Psychology & Philosophy",       "Web Development",
-    ]
-    
-    currently  = "Researching underwater image enhancement with Restormer"
-    
-    def mission(self):
-        return "Build intelligent systems. Understand the ones already around us."
-```
-
----
-
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                   CURRENT FOCUS                             -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> ls -la /current`
+### 🎭 Core Multi-Disciplinary Profiles
 
 <table>
-<tr>
-<td width="50%">
-
-### 🔬 Working On
-- **Restormer-based** underwater image enhancement research
-- **FunIE-GAN** & **Shallow-UWNet** implementation pipeline
-- Advancing **computer vision** techniques for degraded aquatic imagery
-- **ATtiny85 Digispark** hardware security projects
-
-</td>
-<td width="50%">
-
-### 📡 Learning
-- Advanced **transformer architectures** for vision tasks
-- **Federated learning** & privacy-preserving ML
-- Deeper **formal language theory** (TOC)
-- Low-level **embedded firmware** development
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌊 Underwater Computer Vision</h4>
+      <ul>
+        <li><strong>Restormer</strong> is the transformer architecture I’m exploring for underwater image restoration.</li>
+        <li><strong>FUnIE-GAN</strong> uses a generator and discriminator to learn how to enhance degraded frames.</li>
+        <li><strong>Shallow-UWNet</strong> gives me a lightweight convolutional approach to compare with the GAN.</li>
+        <li><strong>RUIE</strong> provides real underwater scenes with varying visibility and color casts.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎯 AI Response Evaluation</h4>
+      <ul>
+        <li><strong>Requirement extraction</strong> identifies requests, constraints, and formatting rules in a prompt.</li>
+        <li><strong>Independent scoring</strong> gives each candidate the same rubric and verifies quotes against the response text.</li>
+        <li><strong>Pairwise comparison</strong> randomizes the answer order before the evaluator picks a preference.</li>
+        <li><strong>Compliance checks</strong> flag cases where the favored answer misses a mandatory requirement.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧠 Machine Learning from Scratch</h4>
+      <ul>
+        <li><strong>MNIST</strong> turns each 28 × 28 grayscale image into 784 inputs and predicts one of ten digits.</li>
+        <li><strong>NumPy</strong> handles the matrix operations for the forward pass and backpropagation.</li>
+        <li><strong>ReLU and softmax</strong> connect the hidden layer to the ten output probabilities.</li>
+        <li><strong>Training experiments</strong> use L2 regularization and learning-rate decay.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ Embedded Systems &amp; Hardware Security</h4>
+      <ul>
+        <li><strong>Digispark ATtiny85</strong> is the board I used to build a USB keystroke-injection demo.</li>
+        <li><strong>USB HID</strong> interests me because a host can interpret a small peripheral as a keyboard.</li>
+        <li><strong>Arduino and ultrasonic sensing</strong> powered my obstacle-avoiding robot.</li>
+        <li><strong>Firmware development</strong> is an area I’m studying alongside embedded security.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>📊 Web Automation &amp; Data Extraction</h4>
+      <ul>
+        <li><strong>Faculty directory discovery</strong> starts with an institution name and finds its departments and leadership pages.</li>
+        <li><strong>Playwright</strong> renders JavaScript directories so the scraper can inspect staff cards and tables.</li>
+        <li><strong>Structured exports</strong> preserve names, roles, and institutional context in JSON, JSON Lines, or CSV.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                  RESEARCH INTERESTS                         -->
-<!-- ████████████████████████████████████████████████████████████ -->
+### ⚡ Live Architecture · EvalBench Evaluation Pipeline
 
-## `> cat research_interests.md`
+<p align="center">
+  <a href="https://github.com/he99codes/evalbench"><img src="assets/evalbench-pipeline.svg" width="100%" alt="EvalBench extracts requirements, scores each response, compares the pair, suggests one edit, and checks compliance"/></a>
+</p>
+
+---
+
+### 🛠️ Interactive Tech Stack Arsenal
 
 <div align="center">
 
-| Domain | Focus Area |
-|:---|:---|
-| 🌊 **Underwater Vision** | Image enhancement, color correction, GAN-based restoration |
-| 🧠 **Deep Learning** | Transformer models, attention mechanisms, generative networks |
-| 🔐 **Cybersecurity** | Hardware security, BadUSB vectors, embedded attack surfaces |
-| ⚙️ **Embedded Systems** | Microcontroller programming, Arduino, ATtiny85 |
-| 📐 **Formal Methods** | Automata theory, DFA/NFA equivalences, state machine modeling |
-| 🤖 **Machine Learning** | Algorithmic trading, neural architectures from scratch |
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,fastapi,react,postgres,docker,arduino,linux,git,vscode&amp;theme=dark" alt="Python, PyTorch, TensorFlow, OpenCV, FastAPI, React, PostgreSQL, Docker, Arduino, Linux, Git and VS Code"/></a>
+</p>
+
+#### 💻 Computer Vision & Deep Learning
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-Vision%20models-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch · Vision models"/>
+  <img src="https://img.shields.io/badge/TensorFlow-Deep%20learning-FF6F00?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow · Deep learning"/>
+  <img src="https://img.shields.io/badge/OpenCV-Image%20processing-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="OpenCV · Image processing"/>
+  <img src="https://img.shields.io/badge/NumPy-Array%20operations-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy · Array operations"/>
+  <img src="https://img.shields.io/badge/Keras-Neural%20networks-D00000?style=for-the-badge&amp;logo=keras&amp;logoColor=white" alt="Keras · Neural networks"/>
+  <img src="https://img.shields.io/badge/scikit--learn-Machine%20learning-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn · Machine learning"/>
+</p>
+
+#### 🎯 AI Evaluation & Web Automation
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-Evaluation%20API-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI · Evaluation API"/>
+  <img src="https://img.shields.io/badge/React-Report%20UI-149ECA?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React · Report UI"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-Run%20history-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL · Run history"/>
+  <img src="https://img.shields.io/badge/Docker-Local%20services-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker · Local services"/>
+  <img src="https://img.shields.io/badge/Playwright-Browser%20automation-2EAD33?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Playwright · Browser automation"/>
+  <img src="https://img.shields.io/badge/Pydantic-Typed%20records-E92063?style=for-the-badge&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic · Typed records"/>
+</p>
+
+#### ⚙️ Embedded Systems & Developer Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Arduino-Microcontrollers-00979D?style=for-the-badge&amp;logo=arduino&amp;logoColor=white" alt="Arduino · Microcontrollers"/>
+  <img src="https://img.shields.io/badge/Digispark-ATtiny85-566573?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="Digispark · ATtiny85"/>
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-Single--board%20computing-A22846?style=for-the-badge&amp;logo=raspberrypi&amp;logoColor=white" alt="Raspberry Pi · Single-board computing"/>
+  <img src="https://img.shields.io/badge/Linux-Terminal-000000?style=for-the-badge&amp;logo=linux&amp;logoColor=white" alt="Linux · Terminal"/>
+  <img src="https://img.shields.io/badge/Git-Version%20control-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git · Version control"/>
+  <img src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" alt="Jupyter · Notebooks"/>
+</p>
+
+#### ⚡ Languages & Interfaces
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/JavaScript-B38E00?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&amp;logo=threedotjs&amp;logoColor=white" alt="Three.js"/>
+</p>
 
 </div>
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                   TECH STACK                                -->
-<!-- ████████████████████████████████████████████████████████████ -->
+### 💼 Research & Project Journey
 
-## `> pip list && apt list`
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3670A0)
-![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=00599C)
-![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=00599C)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Markdown](https://img.shields.io/badge/Markdown-0d1117?style=for-the-badge&logo=markdown&logoColor=ffffff)
-
-**AI / ML / CV**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=PyTorch&logoColor=EE4C2C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=013243)
-![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=27338e)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
-![Keras](https://img.shields.io/badge/Keras-0d1117?style=for-the-badge&logo=Keras&logoColor=D00000)
-
-**Embedded & Hardware**
-
-![Arduino](https://img.shields.io/badge/Arduino-0d1117?style=for-the-badge&logo=Arduino&logoColor=00979D)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-0d1117?style=for-the-badge&logo=Raspberry-Pi&logoColor=C51A4A)
-
-**Web & Tools**
-
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-![Three.js](https://img.shields.io/badge/Three.js-0d1117?style=for-the-badge&logo=three.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![VS Code](https://img.shields.io/badge/VS%20Code-0d1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=Jupyter&logoColor=F37626)
-
----
-
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                  FEATURED PROJECTS                          -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> git log --oneline --featured`
-
-<div align="center">
-
-<a href="https://github.com/he99codes">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=he99codes&repo=underwater-image-enhancement&theme=tokyonight&bg_color=0d1117&border_color=21262d&title_color=58a6ff&icon_color=533483" />
-</a>
-<a href="https://github.com/he99codes">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=he99codes&repo=neural-network-from-scratch&theme=tokyonight&bg_color=0d1117&border_color=21262d&title_color=58a6ff&icon_color=533483" />
-</a>
-
-</div>
-
-<br/>
-
-<!-- PROJECT CARDS TABLE -->
-<div align="center">
-
-| Project | Description | Stack |
-|:---|:---|:---|
-| 🌊 **FunIE-GAN Enhancement** | Underwater image color & clarity restoration using GANs | PyTorch, OpenCV |
-| 🕸️ **Shallow-UWNet** | Lightweight CNN architecture for underwater image processing | TensorFlow, NumPy |
-| 🧠 **Neural Net from Scratch** | Fully connected NN built using only NumPy — no frameworks | Python, NumPy |
-| 📈 **Trading Bot** | Algorithmic trading system with signal analysis | Python, pandas |
-| 🤖 **Obstacle-Avoiding Robot** | Autonomous robot with ultrasonic sensing | Arduino, C++ |
-| ☠️ **BadUSB — ATtiny85** | Hardware payload delivery via Digispark microcontroller | Digispark, C |
-| 🔁 **DFA → NFA Visualizer** | Interactive automata converter and graph renderer | Python / JS |
-| ⚙️ **Mealy & Moore Visualizer** | State machine diagram generator for TOC concepts | Python / JS |
-| 🔭 **Restormer UW Research** | Transformer-based restoration for degraded underwater imagery | PyTorch, Vision |
-| 🪐 **3D Solar System** | Real-time 3D solar system simulation in the browser | Three.js, WebGL |
-
-</div>
-
----
-
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                   GITHUB STATS                              -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> gh api stats`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=he99codes&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=21262d&title_color=58a6ff&icon_color=533483&text_color=c9d1d9&hide_border=false&count_private=true&include_all_commits=true" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=he99codes&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=21262d&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="180"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=he99codes&theme=tokyonight&background=0d1117&border=21262d&stroke=58a6ff&ring=533483&fire=ff6e96&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e" width="60%"/>
-
-</div>
-
----
-
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--              CONTRIBUTION GRAPH                             -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> git log --graph --all`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=he99codes&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=533483&point=ff6e96&area=true&area_color=533483&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                     GOALS                                   -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> cat goals.txt`
-
-```
-[*] Publish research on transformer-based underwater image restoration
-[*] Build a fully functional hardware security toolkit with ATtiny85
-[*] Contribute to open-source computer vision and AI projects
-[*] Develop deeper expertise in formal computation and automata theory
-[*] Bridge the gap between theoretical ML and real-world deployable systems
-[ ] Pursue graduate-level research in AI or computer vision
+```mermaid
+timeline
+    title Priyanshu Sharma — Project Timeline
+    January 2026 : MNIST digit classifier in NumPy
+                 : Binance Futures testnet trading CLI
+    February 2026 : Underwater image enhancement
+                  : FUnIE-GAN and Shallow-UWNet
+    September 2026 : EvalBench response evaluation workbench
+                   : Evidence-backed scoring and compliance checks
+    October 2026 : Academic faculty directory scraper
+                 : Browser automation and structured exports
 ```
 
----
+#### 🏛️ Project Results
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                    FUN FACT                                 -->
-<!-- ████████████████████████████████████████████████████████████ -->
-
-## `> echo $FUN_FACT`
-
-> I built a working BadUSB using a **Digispark ATtiny85** — a device smaller than a thumb drive that can execute keystroke injection payloads.  
-> I also implemented a **neural network with zero ML libraries** — just Python and NumPy — to understand exactly what happens beneath the abstraction layers.
+- 🧠 **About 90% development accuracy** on MNIST with a neural network implemented in NumPy. [Training results](https://github.com/he99codes/mnist-neural-network#results)
+- 🎯 **Five evaluation stages** take EvalBench from a user prompt to a report with evidence for each score. [Pipeline](https://github.com/he99codes/evalbench/blob/main/docs/OVERVIEW.md)
+- 🔎 **Three export formats** make the same faculty records available to scripts, streaming consumers, and spreadsheets. [Directory scraper](https://github.com/he99codes/academic-faculty-scraper)
+- 📈 **Five order types** are available in my Binance Futures testnet CLI, including grid and time-weighted orders. [Trading bot](https://github.com/he99codes/Priyanshu-Trading-Bot)
+- 🔐 **An ATtiny85 USB demo** let me test how a microcontroller presents itself to a host as a keyboard.
 
 ---
 
+### 🚀 Featured Flagship Repositories
+
+<div align="center">
+
+| Project | Focus Area | Technologies | GitHub Link |
+| :--- | :--- | :--- | :--- |
+| **`evalbench`** | **🎯 Pairwise AI response evaluation** | FastAPI, React, PostgreSQL | [![Explore evalbench](https://img.shields.io/badge/Explore-Repo-cyan?style=flat-square&logo=github)](https://github.com/he99codes/evalbench) |
+| **`mnist-neural-network`** | **🧠 Handwritten digit recognition** | Python, NumPy, Jupyter | [![Explore mnist-neural-network](https://img.shields.io/badge/Explore-Repo-blue?style=flat-square&logo=github)](https://github.com/he99codes/mnist-neural-network) |
+| **`academic-faculty-scraper`** | **🔎 Faculty directory extraction** | Python, Playwright, Pydantic | [![Explore academic-faculty-scraper](https://img.shields.io/badge/Explore-Repo-green?style=flat-square&logo=github)](https://github.com/he99codes/academic-faculty-scraper) |
+| **`Priyanshu-Trading-Bot`** | **📈 Order execution on a futures testnet** | Python, Binance Futures API | [![Explore Priyanshu-Trading-Bot](https://img.shields.io/badge/Explore-Repo-purple?style=flat-square&logo=github)](https://github.com/he99codes/Priyanshu-Trading-Bot) |
 
 </div>
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                  CONNECT / SOCIALS                          -->
-<!-- ████████████████████████████████████████████████████████████ -->
+### 🌐 Open Source Footprint & Ecosystem Connections
 
-## `> ping -c 1 priyanshu`
+My public forks collect models, datasets, and tools I study. The underwater vision repositories below cover three enhancement architectures and a benchmark built from real underwater images.
+
+<p align="center">
+  <a href="https://github.com/he99codes/FUnIE-GAN"><img src="https://img.shields.io/badge/FUnIE--GAN-Conditional%20GAN-00B4D8?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="FUnIE-GAN · Conditional GAN"/></a>
+  <a href="https://github.com/he99codes/Shallow-UWnet"><img src="https://img.shields.io/badge/Shallow--UWNet-Lightweight%20CNN-38A87E?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" alt="Shallow-UWNet · Lightweight CNN"/></a>
+  <a href="https://github.com/he99codes/Water-Net_Code"><img src="https://img.shields.io/badge/Water--Net-Underwater%20benchmark-326CE5?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="Water-Net · Underwater benchmark"/></a>
+  <a href="https://github.com/he99codes/RUIE_dataset"><img src="https://img.shields.io/badge/RUIE-Underwater%20dataset-B1040E?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="RUIE · Underwater dataset"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/he99codes/UnderwaterDataset"><img src="https://img.shields.io/badge/Research-Underwater%20datasets-00C7B7?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Research · Underwater datasets"/></a>
+  <a href="https://github.com/he99codes/Underwater-image-enhancement-algorithms"><img src="https://img.shields.io/badge/Research-Enhancement%20algorithms-4facfe?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Research · Enhancement algorithms"/></a>
+  <a href="https://github.com/he99codes/deep-learning-models"><img src="https://img.shields.io/badge/Models-Keras%20models-00B4D8?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Models · Keras models"/></a>
+  <a href="https://github.com/he99codes/minDiffusion"><img src="https://img.shields.io/badge/Models-Diffusion%20in%20PyTorch-7209B7?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Models · Diffusion in PyTorch"/></a>
+  <a href="https://github.com/he99codes/playwright-mcp"><img src="https://img.shields.io/badge/Tools-Playwright%20MCP-2EAD33?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Tools · Playwright MCP"/></a>
+  <a href="https://github.com/he99codes/spheni"><img src="https://img.shields.io/badge/Tools-Vector%20search%20in%20C%2B%2B-017CEE?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Tools · Vector search in C++"/></a>
+  <a href="https://github.com/he99codes/Deep-Learning-Specialization-Coursera"><img src="https://img.shields.io/badge/Learning-Deep%20learning%20labs-FF694B?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Learning · Deep learning labs"/></a>
+  <a href="https://github.com/he99codes/awesome-llm-apps"><img src="https://img.shields.io/badge/Learning-LLM%20applications-2B2D42?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Learning · LLM applications"/></a>
+</p>
+
+---
+
+### 📈 Dynamic Analytics & GitHub Telemetry
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-he99codes-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=21262d)](https://github.com/he99codes)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=21262d)](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=21262d)](mailto:priyanshu2164@gmail.com)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=he99codes&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=8&amp;date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak for he99codes" width="49%"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=he99codes&amp;show_icons=true&amp;locale=en&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=8" alt="Priyanshu Sharma’s GitHub stats" width="49%"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=he99codes&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=8" alt="Most used languages in he99codes repositories" width="49%"/>
+  <img src="https://github-profile-trophy-unserori.vercel.app/?username=he99codes&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4" alt="GitHub trophies for he99codes" width="49%"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=he99codes&amp;theme=tokyonight" alt="Public contribution activity for he99codes over the past year" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/he99codes#year-list-container"><img src="assets/contribution-snake.svg" width="100%" alt="Animated snake crossing a dated snapshot of he99codes’ real GitHub contribution grid"/></a>
+</p>
 
 </div>
 
 ---
 
-<!-- ████████████████████████████████████████████████████████████ -->
-<!--                     FOOTER                                  -->
-<!-- ████████████████████████████████████████████████████████████ -->
+### 💬 Connect & Collaborate
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,50:0f3460,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+If you’re comparing underwater restoration models or designing a rubric for AI responses, I’d like to hear what you’re testing.
 
-<sub>
-  <code>// Systems think. Researchers question. That's the edge.</code>
-  <br/>
-  <sup>Built with curiosity · Refined with obsession · Powered by caffeine</sup>
-</sub>
+<p align="center">
+  <a href="https://www.linkedin.com/in/priyanshu-sharma-0bb566281/"><img src="https://img.shields.io/badge/LinkedIn-Priyanshu%20Sharma-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn · Priyanshu Sharma"/></a>
+  <a href="mailto:priyanshu2164@gmail.com"><img src="https://img.shields.io/badge/Direct%20email-priyanshu2164%40gmail.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Direct email · priyanshu2164@gmail.com"/></a>
+  <a href="https://github.com/he99codes"><img src="https://img.shields.io/badge/GitHub-he99codes-25A366?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub · he99codes"/></a>
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt=""/>
+</p>
 
 </div>

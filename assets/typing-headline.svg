@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="50" viewBox="0 0 820 50" role="img">
+  <title>Computer Vision &amp; Underwater Image Restoration</title>
+  <defs></defs>
+  <style>
+    @keyframes blink { 50% { opacity: .25 } }
+    .light { animation: blink 1.5s ease-in-out infinite }
+
+  @keyframes type { 0%, 1% { clip-path: inset(0 100% 0 0) } 10%, 16% { clip-path: inset(0 0 0 0) } 20%, 100% { clip-path: inset(0 100% 0 0) } }
+  .headline { clip-path: inset(0 100% 0 0); animation: type 20s steps(42, end) infinite; transform-box: fill-box }
+  .headline:first-of-type { clip-path: inset(0 0 0 0) }
+
+    @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
+  </style>
+  <g class="headline" style="animation-delay:0s"><text x="410" y="32" fill="#00f2fe" font-size="21" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="middle">Computer Vision &amp; Underwater Image Restoration</text></g>
+  <g class="headline" style="animation-delay:4s"><text x="410" y="32" fill="#00f2fe" font-size="21" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="middle">AI Evaluation with Evidence and Rubrics</text></g>
+  <g class="headline" style="animation-delay:8s"><text x="410" y="32" fill="#00f2fe" font-size="21" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="middle">Neural Networks from Scratch in NumPy</text></g>
+  <g class="headline" style="animation-delay:12s"><text x="410" y="32" fill="#00f2fe" font-size="21" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="middle">Hardware Security with the ATtiny85</text></g>
+  <g class="headline" style="animation-delay:16s"><text x="410" y="32" fill="#00f2fe" font-size="21" font-weight="400" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="middle">Web Automation with Python and Playwright</text></g>
+</svg>

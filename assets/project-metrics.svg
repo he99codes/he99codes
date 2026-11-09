@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="145" viewBox="0 0 850 145" role="img">
+  <title>EvalBench, MNIST, underwater vision and academic directory project metrics</title>
+  <defs><linearGradient id="tile" x2="1" y2="1"><stop offset="0%" stop-color="#141c2e"/><stop offset="100%" stop-color="#0d1422"/></linearGradient></defs>
+  <style>
+    @keyframes blink { 50% { opacity: .25 } }
+    .light { animation: blink 1.5s ease-in-out infinite }
+    @keyframes float { 50% { transform: translateY(-3px) } } .metric { animation: float 4s ease-in-out infinite }
+    @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
+  </style>
+  <g transform="translate(5 6)">
+  <g class="metric" style="animation-delay:-0s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#00f2fe" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#8b949e" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">AI RESPONSE EVALUATION</text>
+  <text x="16" y="70" fill="#00f2fe" font-size="25" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">5 stages</text>
+  <text x="16" y="96" fill="#d1d7e0" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">From requirements to compliance</text>
+  <circle class="light" style="animation-delay:0.0s" cx="21" cy="115" r="3.5" fill="#38d39f"/>
+  <text x="32" y="119" fill="#38d39f" font-size="10.5" font-weight="600" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">EvalBench</text>
+  </g></g>
+  <g transform="translate(217 6)">
+  <g class="metric" style="animation-delay:-1s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#ff5858" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#8b949e" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">DIGIT RECOGNITION</text>
+  <text x="16" y="70" fill="#ff5858" font-size="25" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">~90%</text>
+  <text x="16" y="96" fill="#d1d7e0" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">MNIST development accuracy</text>
+  <circle class="light" style="animation-delay:0.3333333333333333s" cx="21" cy="115" r="3.5" fill="#f857a6"/>
+  <text x="32" y="119" fill="#f857a6" font-size="10.5" font-weight="600" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Python + NumPy</text>
+  </g></g>
+  <g transform="translate(429 6)">
+  <g class="metric" style="animation-delay:-2s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#43e97b" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#8b949e" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">UNDERWATER VISION</text>
+  <text x="16" y="70" fill="#43e97b" font-size="25" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">3 models</text>
+  <text x="16" y="96" fill="#d1d7e0" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">GAN, CNN and transformer</text>
+  <circle class="light" style="animation-delay:0.6666666666666666s" cx="21" cy="115" r="3.5" fill="#38f9d7"/>
+  <text x="32" y="119" fill="#38f9d7" font-size="10.5" font-weight="600" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">Image restoration</text>
+  </g></g>
+  <g transform="translate(641 6)">
+  <g class="metric" style="animation-delay:-3s">
+  <rect x="0" y="0" width="200" height="133" rx="10" fill="url(#tile)" stroke="#fee140" stroke-width="1.5"/>
+  <text x="16" y="32" fill="#8b949e" font-size="11" font-weight="700" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">FACULTY DIRECTORIES</text>
+  <text x="16" y="70" fill="#fee140" font-size="25" font-weight="700" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">3 formats</text>
+  <text x="16" y="96" fill="#d1d7e0" font-size="11.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="start">Structured directory exports</text>
+  <circle class="light" style="animation-delay:1.0s" cx="21" cy="115" r="3.5" fill="#fee140"/>
+  <text x="32" y="119" fill="#fee140" font-size="10.5" font-weight="600" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="start">JSON / JSONL / CSV</text>
+  </g></g>
+</svg>
