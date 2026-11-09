@@ -1,4 +1,4 @@
-<img src="assets/priyanshu-roles.svg" width="100%" alt="Priyanshu Sharma · TerminalBench L3/L4 Contributor | AI Evaluation | ML ENGINEER | BigQuery Data Engineer · 3 years of experience"/>
+<img src="assets/priyanshu-profile-banner.svg" width="100%" alt="Priyanshu Sharma · TerminalBench | AI Evaluation | ML ENGINEER | Data Engineer · 3 years of experience"/>
 
 I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
