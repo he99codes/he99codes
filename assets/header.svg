@@ -1,47 +1,20 @@
-<svg
-        width="854"
-        height="225"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 225"
-      >
-        <style>
-      .text {   font-size: 50px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  }
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  }
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#164655"/><stop offset="100%" stop-color="#61976c"/>
-              </linearGradient>
-            </defs>
-
-      <g transform="translate(427, 112.5) scale(1, 1) translate(-427, -112.5)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 145Q 213.5 185 427 155T 854 180L 854 0 Z;M0 0L 0 170Q 213.5 185 427 165T 854 155L 854 0 Z;M0 0L 0 190Q 213.5 160 427 190T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 185 427 155T 854 180L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 160Q 213.5 205 427 175T 854 185L 854 0 Z;M0 0L 0 175Q 213.5 145 427 145T 854 165L 854 0 Z;M0 0L 0 170Q 213.5 150 427 175T 854 190L 854 0 Z;M0 0L 0 160Q 213.5 205 427 175T 854 185L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="36%" class="text" style="fill:#ffffff;paint-order:stroke fill;" stroke="#00f2fe" stroke-width="2" >Priyanshu Sharma</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">TerminalBench L3/L4 Contributor | AI Evaluation | GCP BigQuery Data Engineer</text>
-      </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="208" viewBox="0 0 850 208" role="img">
+  <title>Priyanshu Sharma · Pune, India · 3 years of experience</title>
+  <defs>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#20482b"/></pattern>
+    <clipPath id="field"><rect x="1" y="1" width="848" height="206" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#field)">
+    <rect width="850" height="208" fill="#060a07"/>
+    <rect width="850" height="208" fill="url(#grid)"/>
+    <g transform="translate(726 109) rotate(-22)" stroke="#42db77" fill="none">
+      <circle r="73"/><ellipse rx="30" ry="73"/><ellipse rx="55" ry="73"/><path d="M-73 0H73M0-73V73"/>
+      <ellipse rx="73" ry="23"/><ellipse rx="73" ry="48"/><ellipse rx="115" ry="13" stroke="#baff95" stroke-width="2"/>
+      <circle cx="110" cy="4" r="4" fill="#baff95"/>
+    </g>
+    <g font-family="'Courier New',monospace"><text x="38" y="43" fill="#81d694" font-size="15">@he99codes  /  Pune, India</text>
+      <text x="34" y="107" fill="#c1ffad" font-family="Arial,sans-serif" font-weight="700" font-size="58" letter-spacing="-2">Priyanshu Sharma</text>
+      <text x="38" y="146" fill="#aeceba" font-size="17">Computer vision · Deep learning · Machine learning</text>
+      <text x="38" y="179" fill="#58ee88" font-size="15">3 years of experience</text></g>
+  </g>
+</svg>

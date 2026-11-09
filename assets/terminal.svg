@@ -1,167 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="380" fill="none">
-  <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e17"/>
-      <stop offset="50%" stop-color="#0d1322"/>
-      <stop offset="100%" stop-color="#070a10"/>
-    </linearGradient>
-
-    <!-- Border Glow Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#4facfe"/>
-      <stop offset="100%" stop-color="#00c7b7"/>
-    </linearGradient>
-
-    <!-- Header Gradient -->
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#141c2e"/>
-      <stop offset="100%" stop-color="#0f1624"/>
-    </linearGradient>
-
-    <!-- Progress Gradient -->
-    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#4facfe"/>
-      <stop offset="100%" stop-color="#38d39f"/>
-    </linearGradient>
-
-    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="380" viewBox="0 0 850 380" role="img">
+  <title>Priyanshu Sharma’s research terminal</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop offset="0%" stop-color="#0d140e"/><stop offset="52%" stop-color="#152016"/><stop offset="100%" stop-color="#090e0a"/></linearGradient><linearGradient id="edge" x2="1" y2="1"><stop offset="0%" stop-color="#13eb22"/><stop offset="50%" stop-color="#5bf266"/><stop offset="100%" stop-color="#1eed2d"/></linearGradient></defs>
   <style>
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    @keyframes pulseGlow {
-      0% { filter: drop-shadow(0 0 4px rgba(0, 242, 254, 0.4)); }
-      50% { filter: drop-shadow(0 0 14px rgba(0, 242, 254, 0.8)); }
-      100% { filter: drop-shadow(0 0 4px rgba(0, 242, 254, 0.4)); }
-    }
-    @keyframes scanline {
-      0% { transform: translateY(0); opacity: 0.15; }
-      50% { opacity: 0.35; }
-      100% { transform: translateY(320px); opacity: 0.15; }
-    }
-    .terminal-window {
-      animation: pulseGlow 4.5s infinite ease-in-out;
-    }
-    .cursor {
-      animation: blink 0.9s infinite steps(1);
-    }
-    .prompt { fill: #00f2fe; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13.5px; }
-    .command { fill: #ffffff; font-weight: 600; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13.5px; }
-    .key { fill: #79c0ff; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; font-weight: 600; }
-    .val { fill: #d1d7e0; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; }
-    .highlight { fill: #56d364; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; }
-    .accent { fill: #ff7b72; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; }
-    .cyan { fill: #38d39f; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; }
-    .title-text { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12.5px; font-weight: 500; }
+    @keyframes blink { 50% { opacity: .25 } }
+    .light { animation: blink 1.5s ease-in-out infinite }
+    @keyframes fillBar { 0% { width: 15px } 85%, 100% { width: 546px } } .progress { animation: fillBar 4.5s ease-in-out infinite }
+    @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
   </style>
-
-  <!-- Outer Card with Glowing Border -->
-  <rect x="5" y="5" width="840" height="370" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.8" class="terminal-window"/>
-
-  <!-- Terminal Top Bar -->
-  <path d="M 5 17 Q 5 5 17 5 L 833 5 Q 845 5 845 17 L 845 38 L 5 38 Z" fill="url(#headerGrad)"/>
-  <line x1="5" y1="38" x2="845" y2="38" stroke="#1f293d" stroke-width="1"/>
-
-  <!-- macOS Window Controls -->
-  <circle cx="26" cy="21.5" r="5.5" fill="#ff5f56"/>
-  <circle cx="44" cy="21.5" r="5.5" fill="#ffbd2e"/>
-  <circle cx="62" cy="21.5" r="5.5" fill="#27c93f"/>
-
-  <!-- Terminal Title with Live Status Badge -->
-  <g transform="translate(425, 25)">
-    <text text-anchor="middle" class="title-text">faisal@terminal-bench-l4: ~ (zsh — 80x25)</text>
-  </g>
-  <g transform="translate(730, 15)">
-    <circle cx="0" cy="7" r="4" fill="#38d39f" filter="url(#glowCyan)">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="10" y="11" fill="#38d39f" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700">ONLINE</text>
-  </g>
-
-  <!-- Line 1: Command Prompt -->
-  <text x="25" y="68" class="prompt">faisal@turing-eval-node:~$</text>
-  <text x="260" y="68" class="command">terminal-bench --tier=l3,l4 --suite=harbor-framework --mode=live</text>
-
-  <!-- Line 2: Divider -->
-  <text x="25" y="90" fill="#212b3d" font-family="monospace" font-size="12">────────────────────────────────────────────────────────────────────────────────────────</text>
-
-  <!-- Line 3: System / Role -->
-  <text x="25" y="114" class="key">CORE PROFILE</text>
-  <text x="175" y="114" class="val">:: Mohammed Al Faisal Sharif (@faisal37990)</text>
-
-  <!-- Line 4: Specialization -->
-  <text x="25" y="138" class="key">SPECIALIZATION</text>
-  <text x="175" y="138" class="highlight">:: TerminalBench Level 3 &amp; 4 Engineering Contributor</text>
-
-  <!-- Line 5: Domains -->
-  <text x="25" y="162" class="key">AI TRAINING &amp; EVAL</text>
-  <text x="175" y="162" class="val">:: Frontier LLM SFT • Multi-Turn Rubric Engineering • Golden Solutions</text>
-
-  <!-- Line 6: Cloud Platform -->
-  <text x="25" y="186" class="key">CLOUD DATA DWH</text>
-  <text x="175" y="186" class="val">:: GCP BigQuery • Google Workflows • Data Nexus (Piper) • Looker / PLX</text>
-
-  <!-- Line 7: Infrastructure -->
-  <text x="25" y="210" class="key">CONTAINERS &amp; K8S</text>
-  <text x="175" y="210" class="val">:: CNCF Harbor Registry • Docker Sandboxes • Kubernetes Jobs • POSIX Bash</text>
-
-  <!-- Line 8: Metrics -->
-  <text x="25" y="234" class="key">PROVEN IMPACT</text>
-  <text x="175" y="234" class="cyan">:: 100% Red-Team Catch Rate</text>
-  <text x="420" y="234" class="val">|</text>
-  <text x="435" y="234" class="highlight">-35% Latency (BigQuery)</text>
-  <text x="660" y="234" class="val">|</text>
-  <text x="675" y="234" class="accent">90K+ MDM</text>
-
-  <!-- Line 9: Divider -->
-  <text x="25" y="256" fill="#212b3d" font-family="monospace" font-size="12">────────────────────────────────────────────────────────────────────────────────────────</text>
-
-  <!-- Line 10: Active Execution Prompt with Blinking Cursor -->
-  <text x="25" y="280" class="prompt">faisal@turing-eval-node:~$</text>
-  <text x="260" y="280" class="command">pytest eval_suite/ --level=4 --adversarial --assert-golden</text>
-  <rect x="740" y="267" width="8.5" height="15" fill="#00f2fe" class="cursor"/>
-
-  <!-- Line 11: Live Status Chips with Blinking LEDs -->
-  <g transform="translate(25, 304)">
-    <circle cx="4" cy="-4" r="3.5" fill="#38d39f">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
-    </circle>
-    <text x="14" y="0" fill="#38d39f" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700">LEVEL 3: PASSED</text>
-
-    <circle cx="165" cy="-4" r="3.5" fill="#00f2fe">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" begin="0.3s"/>
-    </circle>
-    <text x="175" y="0" fill="#00f2fe" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700">LEVEL 4: PASSED</text>
-
-    <circle cx="325" cy="-4" r="3.5" fill="#f857a6">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" begin="0.6s"/>
-    </circle>
-    <text x="335" y="0" fill="#f857a6" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700">100% RED-TEAM RESILIENT</text>
-
-    <circle cx="560" cy="-4" r="3.5" fill="#fee140">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" begin="0.9s"/>
-    </circle>
-    <text x="570" y="0" fill="#fee140" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700">HARBOR SANDBOX: ISOLATED</text>
-  </g>
-
-  <!-- Line 12: Live Animated Progress Bar -->
-  <g transform="translate(25, 332)">
-    <rect x="0" y="0" width="550" height="14" rx="7" fill="#0d1422" stroke="#1c283f" stroke-width="1.2"/>
-    <rect x="2" y="2" height="10" rx="5" fill="url(#barGrad)">
-      <animate attributeName="width" values="15;160;360;546;546" keyTimes="0;0.3;0.65;0.9;1" dur="4.5s" repeatCount="indefinite"/>
-    </rect>
-    <text x="565" y="11" fill="#38d39f" font-family="'Fira Code', monospace" font-size="12" font-weight="700">100% (40/40 SUITES COMPLETED)</text>
-  </g>
-
-  <!-- Line 13: Deterministic Exit Code Assertion -->
-  <text x="25" y="365" fill="#8b949e" font-family="'Fira Code', monospace" font-size="11">✓ exit code 0 • 0 errors • 0 warnings • Deterministic golden stdout matched.</text>
+  <rect x="5" y="5" width="840" height="370" rx="12" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M6 17q0-11 11-11h816q11 0 11 11v21H6z" fill="#1a281b"/>
+  <rect x="6" y="38" width="838" height="1" rx="0" fill="#2c412d" stroke="none" stroke-width="1.5"/>
+  <circle cx="26" cy="22" r="5.5" fill="#63f26d"/>
+  <circle cx="44" cy="22" r="5.5" fill="#3eef4a"/>
+  <circle cx="62" cy="22" r="5.5" fill="#12de20"/>
+  <text x="425" y="26" fill="#3aef47" font-size="12.5" font-weight="500" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" text-anchor="middle">he99codes@research-lab: ~ (zsh — 80×25)</text>
+  <circle class="light" style="animation-delay:0s" cx="730" cy="22" r="3.5" fill="#1eed2d"/>
+  <text x="740" y="26" fill="#1eed2d" font-size="10.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">ONLINE</text>
+  <text x="25" y="68" fill="#13eb22" font-size="13.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">priyanshu@research-lab:~$</text>
+  <text x="255" y="68" fill="#ffffff" font-size="13.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">gh api users/he99codes</text>
+  <text x="25" y="280" fill="#13eb22" font-size="13.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">priyanshu@research-lab:~$</text>
+  <text x="255" y="280" fill="#ffffff" font-size="13.5" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">gh repo view he99codes/evalbench</text>
+  <rect x="25" y="88" width="800" height="1" rx="0" fill="#263827" stroke="none" stroke-width="1.5"/>
+  <rect x="25" y="255" width="800" height="1" rx="0" fill="#263827" stroke="none" stroke-width="1.5"/>
+  <text x="25" y="114" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">CORE PROFILE</text>
+  <text x="175" y="114" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: Priyanshu Sharma (@he99codes)</text>
+  <text x="25" y="138" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">SPECIALIZATION</text>
+  <text x="175" y="138" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: Computer science student researching underwater image restoration</text>
+  <text x="25" y="162" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">COMPUTER VISION</text>
+  <text x="175" y="162" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: Restormer  •  FUnIE-GAN  •  Shallow-UWNet</text>
+  <text x="25" y="186" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">MODEL EVALUATION</text>
+  <text x="175" y="186" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: EvalBench  •  pairwise scoring  •  evidence spans</text>
+  <text x="25" y="210" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">EMBEDDED SYSTEMS</text>
+  <text x="175" y="210" fill="#d1e0d2" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">:: ATtiny85 Digispark  •  Arduino  •  ultrasonic sensing</text>
+  <text x="25" y="234" fill="#83f58b" font-size="13" font-weight="600" font-family="'Courier New', monospace" text-anchor="start">PROJECT RESULTS</text>
+  <text x="175" y="234" fill="#1eed2d" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">:: ~90% MNIST dev accuracy</text>
+  <text x="405" y="234" fill="#3aef47" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">|</text>
+  <text x="425" y="234" fill="#3aef47" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">5 evaluation stages</text>
+  <text x="605" y="234" fill="#3aef47" font-size="13" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">|</text>
+  <text x="625" y="234" fill="#7df485" font-size="13" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">3 export formats</text>
+  <rect class="light" x="520" y="268" width="8" height="15" fill="#13eb22"/>
+  <circle class="light" style="animation-delay:0.0s" cx="29" cy="301" r="3.5" fill="#1eed2d"/>
+  <text x="39" y="305" fill="#1eed2d" font-size="11.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">PARSE REQUEST</text>
+  <circle class="light" style="animation-delay:0.25s" cx="197" cy="301" r="3.5" fill="#13eb22"/>
+  <text x="207" y="305" fill="#13eb22" font-size="11.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">SCORE RESPONSES</text>
+  <circle class="light" style="animation-delay:0.5s" cx="391" cy="301" r="3.5" fill="#5df268"/>
+  <text x="401" y="305" fill="#5df268" font-size="11.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">COMPARE EVIDENCE</text>
+  <circle class="light" style="animation-delay:0.75s" cx="602" cy="301" r="3.5" fill="#4df159"/>
+  <text x="612" y="305" fill="#4df159" font-size="11.5" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">CHECK COMPLIANCE</text>
+  <rect x="25" y="330" width="550" height="14" rx="7" fill="#131c13" stroke="#2c412d" stroke-width="1.5"/>
+  <rect class="progress" x="27" y="332" width="546" height="10" rx="5" fill="url(#edge)"/>
+  <text x="595" y="342" fill="#1eed2d" font-size="12" font-weight="700" font-family="'Courier New', monospace" text-anchor="start">EVALBENCH  /  5 STAGES</text>
+  <text x="25" y="365" fill="#3aef47" font-size="11" font-weight="400" font-family="'Courier New', monospace" text-anchor="start">✓ Each score links back to a quote from the response under review.</text>
 </svg>

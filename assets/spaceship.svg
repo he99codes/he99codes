@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="162" viewBox="0 0 850 162" role="img">
+  <title>A green survey spaceship skims the mountains of a distant moon</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#020604"/><stop offset="1" stop-color="#102318"/></linearGradient>
+    <linearGradient id="jet"><stop stop-color="#36ff80" stop-opacity="0"/><stop offset="1" stop-color="#c9ffac"/></linearGradient>
+    <pattern id="stars" width="137" height="71" patternUnits="userSpaceOnUse"><path d="M13 15h2m50 29h1m34-38h2m26 56h1" stroke="#93dca6" stroke-width="2"/></pattern>
+  </defs>
+  <style>
+    @keyframes fly {0%,100%{transform:translate(0,0)}50%{transform:translate(183px,-15px)}}
+    @keyframes drift {to{transform:translateX(-137px)}}
+    .ship{animation:fly 12s ease-in-out infinite}.stars{animation:drift 8s linear infinite}
+    @media(prefers-reduced-motion:reduce){.ship,.stars{animation:none}}
+  </style>
+  <rect width="850" height="162" rx="10" fill="url(#sky)"/>
+  <rect class="stars" width="988" height="120" fill="url(#stars)"/>
+  <g transform="translate(696 40) rotate(-18)" stroke="#5d9968"><circle r="21" fill="#173023"/><ellipse rx="41" ry="6" fill="none"/></g>
+  <path d="M0 140l77-30 38 12 43-31 73 38 71-17 55 12 60-30 95 34 39-15 81 11 74-33 58 29 86-23v65H0Z" fill="#13331f"/>
+  <path d="M0 148l92-14 75 9 75-13 144 16 94-13 108 8 112-12 150 13v20H0Z" fill="#061009" stroke="#27683e"/>
+  <g class="ship"><g transform="translate(270 79) rotate(-5)">
+    <path d="M-100 0l101-7v13Z" fill="url(#jet)"/>
+    <path d="M-3-7h25L8-30l15 3 31 22 33 5-18 8-27 1-28 18-14 1 14-21H-3Z" fill="#214b30" stroke="#8dfba6" stroke-width="2"/>
+    <path d="M6-2l43-7 15 3 15 6-62 3Z" fill="#b7fbb7"/>
+    <path d="M40-7l9-8 10 1 11 9Z" fill="#50cd87" stroke="#c7ffda"/>
+    <path d="M0-6v12" stroke="#d7ffb3" stroke-width="4"/>
+  </g></g>
+</svg>
