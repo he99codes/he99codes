@@ -1,4 +1,10 @@
-<img src="assets/priyanshu-profile-banner.svg" width="100%" alt="Priyanshu Sharma · TerminalBench | AI Evaluation | ML ENGINEER | Data Engineer · 3 years of experience"/>
+<img src="assets/priyanshu-profile-banner.svg" width="100%" alt="Priyanshu Sharma · Terminal Benchmarking | AI Evaluation | ML ENGINEER | Data Engineer · 3 years of experience"/>
+
+<p align="center">
+  <a href="#experience"><img src="https://img.shields.io/badge/Terminal-Benchmarking-8BFFAA?style=for-the-badge&amp;labelColor=163520&amp;logo=gnubash&amp;logoColor=white" alt="Terminal Benchmarking"/></a>
+  <a href="#experience"><img src="https://img.shields.io/badge/Coding_agents-Multi--step_tasks-43B975?style=for-the-badge&amp;labelColor=203527" alt="Coding agents · Multi-step tasks"/></a>
+  <a href="https://github.com/he99codes/evalbench"><img src="https://img.shields.io/badge/AI_evaluation-EvalBench-8DCB9D?style=for-the-badge&amp;labelColor=25362B" alt="AI evaluation · EvalBench"/></a>
+</p>
 
 I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
@@ -10,7 +16,7 @@ I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati 
 ## Experience
 
 **AI Fellow · Handshake AI** · July 2026–present
-I design multi-step terminal tasks for coding and reasoning agents. I adjust the difficulty to identify where agents lose track of a task or struggle to explore an unfamiliar environment.
+My work focuses on **terminal benchmarking**. I design multi-step coding and reasoning tasks, then tune their difficulty to see where an agent loses track of its goal while exploring an unfamiliar environment.
 
 **Application Developer · ContextMover** · April 2026–present
 I built a Chrome extension, a React Native Android app, and an Express backend to keep context in sync across devices. Redesigning the lookup index brought retrieval below 100 ms. A fallback for low-spec hardware cut failures and timeouts by 35%. [ContextMover](https://github.com/he99codes/ContextMover)
