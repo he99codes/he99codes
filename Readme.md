@@ -1,4 +1,4 @@
-<img src="assets/terminal-benchmarking.svg" width="100%" alt="Terminal Benchmarking — Priyanshu Sharma, AI Fellow at Handshake AI. I design multi-step tasks for coding agents."/>
+<img src="assets/priyanshu-intro.svg" width="100%" alt="Priyanshu Sharma · Terminal Benchmarking · AI Evaluation · AI Agents · Data Mining · Data Engineer · ML Engineer"/>
 
 <p align="center">
   <a href="#experience"><img src="https://img.shields.io/badge/Terminal-Benchmarking-8BFFAA?style=for-the-badge&amp;labelColor=163520&amp;logo=gnubash&amp;logoColor=white" alt="Terminal Benchmarking"/></a>
@@ -6,13 +6,7 @@
   <a href="https://github.com/he99codes/evalbench"><img src="https://img.shields.io/badge/AI_evaluation-EvalBench-8DCB9D?style=for-the-badge&amp;labelColor=25362B" alt="AI evaluation · EvalBench"/></a>
 </p>
 
-## How I benchmark terminal agents
-
-At **Handshake AI**, I design coding tasks that make an agent explore an unfamiliar repository. I vary how much the initial prompt reveals so I can see whether the agent can locate a failure, reason about its cause, and verify a fix.
-
-**Example task.** A CSV importer splits a quoted field containing a comma. The agent has to reproduce the bug, repair the parser, and preserve empty fields. I’d check both cases against fresh inputs and inspect the diff: changing a fixture can turn a test green while leaving the parser broken.
-
-I’m based in Pune, with **3 years of experience** in software and machine learning. I’m completing my B.Tech in Computer Science Engineering at **Bharati Vidyapeeth College of Engineering** (expected May 2027).
+I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
 [GitHub](https://github.com/he99codes) · [LinkedIn](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/) · [Email](mailto:priyanshu2164@gmail.com)
 
@@ -56,3 +50,5 @@ I completed the **Machine Learning**, **Deep Learning**, and **Mathematics for M
   <img src="https://github-profile-trophy-unserori.vercel.app/?username=he99codes&amp;theme=matrix&amp;no-frame=true&amp;no-bg=true" width="49%" alt="GitHub trophies for he99codes"/>
 </p>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=he99codes&amp;theme=github_dark" width="100%" alt="Public contribution activity over the past year"/>
+
+<img src="assets/moon-flight.svg" width="100%" alt="A green spaceship flies above a moonlit ridge as stars drift and a meteor passes."/>
