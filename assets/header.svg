@@ -12,7 +12,7 @@
     </style>
         <defs>
               <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#B993D6"/><stop offset="100%" stop-color="#8CA6DB"/>
+                <stop offset="0%" stop-color="#164655"/><stop offset="100%" stop-color="#61976c"/>
               </linearGradient>
             </defs>
 
@@ -43,5 +43,5 @@
         </path>
       </g>
          <text text-anchor="middle" dominant-baseline="middle" x="50%" y="36%" class="text" style="fill:#ffffff;paint-order:stroke fill;" stroke="#00f2fe" stroke-width="2" >Priyanshu Sharma</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">Computer Vision | AI Evaluation | Embedded Systems</text>
+        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">TerminalBench L3/L4 Contributor | AI Evaluation | GCP BigQuery Data Engineer</text>
       </svg>
