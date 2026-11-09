@@ -1,10 +1,10 @@
-<img src="assets/header.svg" width="100%" alt="Priyanshu Sharma · Computer vision, deep learning and machine learning · 3 years of experience"/>
+<img src="assets/priyanshu-roles.svg" width="100%" alt="Priyanshu Sharma · TerminalBench L3/L4 Contributor | AI Evaluation | ML ENGINEER | BigQuery Data Engineer · 3 years of experience"/>
 
 I’m **Priyanshu Sharma**, a Computer Science Engineering student at **Bharati Vidyapeeth College of Engineering, Pune** (B.Tech, expected May 2027). I have **3 years of experience** building software and working with machine learning. I build ContextMover, design terminal benchmarks for coding agents at Handshake AI, and study how deep learning models restore images.
 
 [GitHub](https://github.com/he99codes) · [LinkedIn](https://www.linkedin.com/in/priyanshu-sharma-0bb566281/) · [Email](mailto:priyanshu2164@gmail.com)
 
-<a href="https://github.com/he99codes/evalbench"><img src="assets/priyanshu-terminal.svg" width="100%" alt="Priyanshu Sharma’s engineering profile, including Handshake AI, ContextMover and research at NIT Kurukshetra"/></a>
+<a href="https://github.com/he99codes/evalbench"><img src="assets/priyanshu-flight-terminal.svg" width="100%" alt="Priyanshu Sharma’s engineering profile, including Handshake AI, ContextMover and research at NIT Kurukshetra"/></a>
 <img src="assets/priyanshu-results.svg" width="100%" alt="ContextMover retrieval under 100 ms, benchmark PSNR improved by 18%, SSIM by 14%, and Tabular AutoML setup time reduced by 75%"/>
 
 ## Experience
@@ -44,5 +44,3 @@ I completed the **Machine Learning**, **Deep Learning**, and **Mathematics for M
   <img src="https://github-profile-trophy-unserori.vercel.app/?username=he99codes&amp;theme=matrix&amp;no-frame=true&amp;no-bg=true" width="49%" alt="GitHub trophies for he99codes"/>
 </p>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=he99codes&amp;theme=github_dark" width="100%" alt="Public contribution activity over the past year"/>
-
-<img src="assets/spaceship.svg" width="100%" alt="An animated green spaceship flying over a moon’s mountain range"/>
