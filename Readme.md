@@ -1,7 +1,7 @@
 <img src="assets/priyanshu-intro.svg" width="100%" alt="Priyanshu Sharma · Terminal Benchmarking · AI Evaluation · AI Agents · Data Mining · Data Engineer · ML Engineer"/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TerminalBench-L3%20%26%20L4%20Contributor-00C7B7?style=for-the-badge&logo=gnubash&logoColor=white" alt="TerminalBench"/>
+  <img src="https://img.shields.io/badge/TerminalBench-555555?style=for-the-badge&logo=gnubash&logoColor=white" alt="TerminalBench"/>
   <img src="https://img.shields.io/badge/Frontier%20LLM-Adversarial%20Red--Teaming-FF0055?style=for-the-badge&logo=target&logoColor=white" alt="Red Teaming"/>
   <br/>
   <img src="https://img.shields.io/badge/Google%20Cloud-GCP%20BigQuery%20Architect-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP BigQuery"/>
